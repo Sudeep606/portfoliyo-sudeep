@@ -1,10 +1,11 @@
 import React from 'react';
 import './project.css';
-
+import { Link } from 'react-router-dom';
 function Projects() {
   return (
     <>
       <h2 className="text-center mt-5">Projects</h2>
+      <Link style={{textDecoration:"none",fontSize:"20px"}} to="/home"><i className="fa-solid fa-arrow-left"></i>Back to Home</Link>
 
       {/* Microsoft clone */}
       <div className="box mt-4">

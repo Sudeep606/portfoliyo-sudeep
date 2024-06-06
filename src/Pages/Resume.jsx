@@ -4,12 +4,15 @@ import './resume.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 
 function Resume() {
   return (
     <>
       <div>
         <h2 className="text-center">Resume</h2>
+        <Link style={{textDecoration:"none",fontSize:"20px"}} to="/home"><i className="fa-solid fa-arrow-left"></i>Back to Home</Link>
+
         <div className="d-flex justify-content-center my-4">
         <label className="experience-label me-3">Experience</label>      
             <button className="bg-slate-300 px-4 py-2 rounded">
