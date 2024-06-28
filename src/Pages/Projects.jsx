@@ -31,6 +31,19 @@ function Projects() {
         <a href="https://counter-app-seven-theta.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
         <a href="https://github.com/Sudeep606/counter-app" target="_blank" rel="noopener noreferrer">Git Repo</a>
       </div>
+      <div className="box mt-4">
+        <h3>Basic Calculator</h3>
+        <h4>HTML:5, CSS, JavaScript</h4>
+        <p></p>
+        <a href="https://basic-calculator-lac.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+        <a href="https://github.com/Sudeep606/basic-calculator" target="_blank" rel="noopener noreferrer">Git Repo</a>
+      </div><div className="box mt-4">
+        <h3>Color Palette</h3>
+        <h4>HTML:5, CSS, JavaScript,React</h4>
+        <p></p>
+        <a href="https://color-palette-smoky-three.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+        <a href="https://github.com/Sudeep606/color-palette" target="_blank" rel="noopener noreferrer">Git Repo</a>
+      </div>
     </>
   );
 }
