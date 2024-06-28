@@ -1,5 +1,5 @@
 import React from 'react';
-import myPdf from '../assets/sudeepnew.pdf';
+import myResume from '../assets/sudeep-resume.pdf';
 import './resume.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -16,7 +16,7 @@ function Resume() {
         <div className="d-flex justify-content-center my-4">
         <label className="experience-label me-3">Experience</label>      
             <button className="bg-slate-300 px-4 py-2 rounded">
-            <a style={{ textDecoration: 'none' }} href={myPdf} download="sudeepcv">
+            <a style={{ textDecoration: 'none' }} href={myResume} download="sudeepcv">
               Download Resume
             </a>
           </button>
