@@ -7,6 +7,23 @@ function Projects() {
       <h2 className="text-center mt-5">Projects</h2>
       <Link style={{textDecoration:"none",fontSize:"20px"}} to="/home"><i className="fa-solid fa-arrow-left"></i>Back to Home</Link>
 
+
+       <div className="box mt-4">
+        <h3>Media Player</h3>
+        <h4>HTML:5, CSS, JavaScript, React, JSON, Node</h4>
+        <p>It's a video library where you can store your favourite contents. It has the features of adding video, watch history and personal account as well. It's build using HTML, CSS ,Javascript, React and Node </p>
+        <a href="https://vercel.com/sudeeps-projects-4aa2267e/media-player" target="_blank" rel="noopener noreferrer">Live Link</a>
+        <a href="https://github.com/Sudeep606/media-player" target="_blank" rel="noopener noreferrer">Git Repo</a>
+      </div>
+
+       <div className="box mt-4">
+        <h3>E-Cart</h3>
+        <h4>HTML:5, CSS, JavaScript, React, JSON, Node</h4>
+        <p>An all in one e-commerce website for your daily essential products where you can purchase cosmetics to kitchen items.
+        its build with the help of jsonplaceholder for data.</p>
+        <a href="https://e-cart-xi-eight.vercel.app/">Live Link</a>
+        <a href="https://github.com/Sudeep606/E-CART" target="_blank" rel="noopener noreferrer">Git Repo</a>
+      </div>
       {/* Microsoft clone */}
       <div className="box mt-4">
         <h3>Microsoft Website Clone</h3>
@@ -17,13 +34,7 @@ function Projects() {
       </div>
 
       {/* Ecart */}
-      <div className="box mt-4">
-        <h3>Media Player</h3>
-        <h4>HTML:5, CSS, JavaScript, React, JSON, Node</h4>
-        <p>It's a video library where you can store your favourite contents. It has the features of adding video, watch history and personal account as well. It's build using HTML, CSS ,Javascript, React and Node </p>
-        <a href="https://vercel.com/sudeeps-projects-4aa2267e/media-player" target="_blank" rel="noopener noreferrer">Live Link</a>
-        <a href="https://github.com/Sudeep606/media-player" target="_blank" rel="noopener noreferrer">Git Repo</a>
-      </div>
+     
       <div className="box mt-4">
         <h3>Counter-App</h3>
         <h4>HTML:5, CSS, JavaScript, React, JSON, Node</h4>
