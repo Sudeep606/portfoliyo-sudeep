@@ -1,20 +1,5 @@
 {
-  
-    "routes": [
-  
-      { 
-        "src": "/home", 
-      "dest": "/" 
-    },
-      { 
-        "src": "/resume", 
-      "dest": "/" 
-    },
-      { 
-        "src": "/project",
-         "dest": "/" 
-        }
-    ]
-  }
-  
-  
+  "rewrites": [
+    {"source":"/(.*)","destination":"/"}
+  ]
+}
