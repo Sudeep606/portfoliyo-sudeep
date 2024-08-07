@@ -1,5 +1,5 @@
 import React from 'react';
-import myResume from '../assets/sudeep-resume.pdf';
+import myResume from '../assets/sudeep-faang.pdf';
 import './resume.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -33,8 +33,13 @@ function Resume() {
                 </div>
               </Col>
               <Col>
-                As a MER(A)N Stack Intern, I worked closely with our experienced developers to build and maintain web applications. And was
-                involved in all stages of the development process, from initial design to deployment.
+              As a MERN Stack Intern, I worked closely with experienced developers to build and maintain web applications. 
+              <br />My responsibilities included:
+              <br />
+ • Collaborating with the team to design user interfaces and user experiences.
+<br /> • Writing clean, efficient, and maintainable code using HTML, CSS, JavaScript, React, MongoDB, Express, and Node.js.
+ <br />• Conducting code reviews and providing constructive feedback to peers.
+ <br />• Assisting in the deployment process and ensuring smooth operation post-deployment.
               </Col>
             </Row>
           </Container>
@@ -59,41 +64,10 @@ function Resume() {
         </div>
         <h2 className="section-heading text-red">Professional Skills</h2>
         {/* Professional skills */}
-        <div className="box mb-30">
-          <Container>
-            <Row>
-              <Col>Full Stack Development</Col>
-              <Col>Front-End Developing</Col>
-            </Row>
-          </Container>
-          <Container>
-            <Row>
-              <Col xs={{ order: 'last' }}>React</Col>
-              <Col xs>Angular</Col>
-              <Col xs={{ order: 'first' }}>JavaScript</Col>
-            </Row>
-          </Container>
-          <Container>
-            <Row>
-              <Col xs={{ order: 'last' }}>Node</Col>
-              <Col xs>Express</Col>
-              <Col xs={{ order: 'first' }}>MongoDB</Col>
-            </Row>
-          </Container>
-          <Container>
-            <Row>
-              <Col xs={{ order: 'last' }}>HTML</Col>
-              <Col xs>CSS</Col>
-              <Col xs={{ order: 'first' }}>Bootstrap</Col>
-            </Row>
-          </Container>
-          <Container>
-            <Row>
-              <Col xs={{ order: 'last' }}>Python</Col>
-              <Col xs>Java</Col>
-              <Col xs={{ order: 'first' }}>C</Col>
-            </Row>
-          </Container>
+        <div className="box mb-30" id='height'>
+          <p>Programming Languages:   HTML, CSS, JavaScript, JAVA, SQL</p>
+          <p>Libraries & Tools:   React, MongoDB, Node.js, Express, Azure</p>
+          <p>Skills & Competencies:   DSA, Data Analyst, Critical Thinking, Creative Thinking, Time Management, Excel</p>
         </div>
       </div>
     </>

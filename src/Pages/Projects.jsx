@@ -10,8 +10,10 @@ function Projects() {
 
        <div className="box mt-4">
         <h3>Media Player</h3>
-        <h4>HTML:5, CSS, JavaScript, React, JSON, Node</h4>
-        <p>It's a video library where you can store your favourite contents. It has the features of adding video, watch history and personal account as well. It's build using HTML, CSS ,Javascript, React and Node </p>
+        <h4>Technologies: HTML, CSS, javascript, React, node.js, Express</h4>
+        <p> Developed a comprehensive video library application enabling users to store, manage, and view their favorite content.
+<br /> • Video Addition: Implemented functionality for users to seamlessly add and categorize their favorite videos.
+ <br />• Watch History: Created a detailed history tracking feature, allowing users to monitor their viewing activity</p>
         <a href="https://vercel.com/sudeeps-projects-4aa2267e/media-player" target="_blank" rel="noopener noreferrer">Live Link</a>
         <a href="https://github.com/Sudeep606/media-player" target="_blank" rel="noopener noreferrer">Git Repo</a>
       </div>
@@ -37,8 +39,11 @@ function Projects() {
      
       <div className="box mt-4">
         <h3>Counter-App</h3>
-        <h4>HTML:5, CSS, JavaScript, React, JSON, Node</h4>
-        <p>A counter app is a simple mobile application or software program designed to keep track of a number through incrementing (adding) or decrementing (subtracting) a value.</p>
+        <h4>Technologies: HTML, CSS, JavaScript, React, Node.js</h4>
+        <p>• Developed a dynamic counter application that allows users to set custom increment and decrement values, with a comprehensive
+ history tracking feature.
+ <br />• Custom Increment/Decrement: Enabled users to define their own increment and decrement values for flexible and personalized
+ counting.</p>
         <a href="https://counter-app-seven-theta.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
         <a href="https://github.com/Sudeep606/counter-app" target="_blank" rel="noopener noreferrer">Git Repo</a>
       </div>

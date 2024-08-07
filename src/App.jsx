@@ -5,6 +5,7 @@ import Projects from './Pages/Projects';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
+import Certificates from './Pages/Certificates';
 function App() {
   return (
       <>
@@ -14,6 +15,7 @@ function App() {
       <Route path='/home' element={<Home/>}/>
       <Route path='/resume' element={<Resume/>}/>
       <Route path='/project' element={<Projects/>}/>
+      <Route path='/certificates' element={<Certificates/>}/>
     </Routes>
         <Footer />
       </>
